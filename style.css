@@ -1,0 +1,23 @@
+body{
+    text-align:left;
+}
+
+h1{
+    color:rgb(255, 0, 0);
+    animation: swimming 5s infinite;
+    animation-direction: alternate;
+}
+
+p{
+    text-decoration: underline;
+    
+}
+
+@keyframes swimming{
+    0%{
+        transform: translate(100%, 0);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
